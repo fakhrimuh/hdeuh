@@ -1,21 +1,4 @@
-import Graph from "../assets/graph.png";
-import { CheckCircleIcon } from "@heroicons/react/solid";
 import People from "../assets/people.png";
-
-const features = [
-  {
-    list: "Sistem Kalkulasi Otomatis.",
-    icon: CheckCircleIcon,
-  },
-  {
-    list: "Terdapat visualisasi data statistik order dan pengiriman",
-    icon: CheckCircleIcon,
-  },
-  {
-    list: "Terdapat grafik pemantauan perkembangan.",
-    icon: CheckCircleIcon,
-  },
-];
 
 export default function Cards() {
   return (
@@ -32,7 +15,7 @@ export default function Cards() {
             </div>
 
             <a
-              href="#"
+              href="#!"
               className="mx-auto px-4 py-2 mt-10 border border-orange-default rounded-full shadow-sm text-base text-orange-default font-medium hover:bg-orange-default hover:text-orange-light"
             >
               Select
@@ -53,12 +36,12 @@ export default function Cards() {
               <p className="text-gray-700 text-base">FREE</p>
             </div>
 
-            <a
-              href="#"
+            <button
+              href="#!"
               className="mx-auto px-4 py-2 mt-10 border border-orange-default rounded-full shadow-sm text-base text-orange-default font-medium hover:bg-orange-default hover:text-orange-light"
             >
               Select
-            </a>
+            </button>
             <img
               className="mx-auto w-2/5 h-2/5"
               src={People}
