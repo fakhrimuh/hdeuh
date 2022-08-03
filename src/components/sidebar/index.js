@@ -25,12 +25,12 @@ export default function Sidebar() {
   ];
 
   return (
-    <div className="h-screen bg-orange-default w-64 px-9 space-y-7">
+    <div className="h-screen bg-orange-default w-64 px-9">
       <div className="flex flex-row items-center mb-8">
         <img
           src={Logo}
           alt="Logo"
-          className="w-24 h-24 rounded-full mx-auto mt-10"
+          className="w-24 h-24 rounded-full mx-auto mt-4"
         />
       </div>
 
@@ -40,7 +40,7 @@ export default function Sidebar() {
             return (
               <li key={index} className="mb-4 flex flex-row">
                 <div className="mr-4">{val.icon}</div>
-                <div>{val.name}</div>
+                <div className="font-semibold">{val.name}</div>
               </li>
             );
           })}
@@ -55,7 +55,7 @@ export default function Sidebar() {
             return (
               <li key={index} className="mb-4 flex flex-row">
                 <div className="mr-4">{val.icon}</div>
-                <div>{val.name}</div>
+                <div className="font-semibold">{val.name}</div>
               </li>
             );
           })}
