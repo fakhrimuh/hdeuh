@@ -6,7 +6,7 @@
 // import Login from "./pages/login";
 // import SignUp from "./pages/signUp";
 import Admin from "./pages/admin";
-import LandingPage from "./pages/landingPage";
+// import LandingPage from "./pages/landingPage";
 
 export default function App() {
   return (
@@ -19,7 +19,7 @@ export default function App() {
       {/* <Login /> */}
       {/* <SignUp /> */}
       <Admin />
-      <LandingPage />
+      {/* <LandingPage /> */}
     </div>
   );
 }

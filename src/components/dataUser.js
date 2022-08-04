@@ -1,8 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import {
-  GlobeAltIcon,
   LightningBoltIcon,
-  ScaleIcon,
   CheckCircleIcon,
   CheckIcon,
 } from "@heroicons/react/solid";
