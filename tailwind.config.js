@@ -8,7 +8,8 @@ module.exports = {
       orange: {
         light: "#ffffff",
         default: "#FFB444",
-        dark: "#0e7490",
+        dark: "#000000",
+        gray: "#B9B9B9",
       },
     },
   },

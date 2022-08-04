@@ -1,4 +1,5 @@
 import People from "../assets/people.png";
+import City from "../assets/city.png";
 
 export default function Cards() {
   return (
@@ -8,44 +9,52 @@ export default function Cards() {
       </h3>
       <div className="flex flex-wrap mt-10 items-center h-screen">
         <div className=" w-full md:w-1/2 h-screen">
-          <div className="max-w-sm rounded border border-orange-default mx-auto overflow-hidden shadow-lg">
-            <div className="px-6 py-4 text-center">
-              <h3 className="font-bold text-xl mb-2">Individual</h3>
-              <p className="text-gray-700 text-base">FREE</p>
+          <div className="max-w-sm rounded mx-auto overflow-hidden border-2 border-orange-gray shadow-2xl hover:border-orange-default">
+            <div className="px-6 py-4 text-center text-orange-default">
+              <h3 className="font-medium text-xl mb-2">Individual</h3>
+              <p className="font-bold">FREE</p>
             </div>
 
-            <a
-              href="#!"
-              className="mx-auto px-4 py-2 mt-10 border border-orange-default rounded-full shadow-sm text-base text-orange-default font-medium hover:bg-orange-default hover:text-orange-light"
-            >
-              Select
-            </a>
+            <div className="mx-auto px-6 py-4 text-center">
+              <button
+                href="#"
+                className="mx-auto px-4 py-2 mt-10 border border-orange-default rounded-full shadow-sm text-base text-orange-default font-medium hover:bg-orange-default hover:text-orange-light hover:shadow-lg "
+              >
+                Select
+              </button>
+            </div>
+
             <img
-              className="mx-auto w-2/5 h-2/5"
+              className="mx-auto mt-10 w-48 h-96"
               src={People}
-              alt="people ilustration"
+              alt="People ilustration"
             />
           </div>
         </div>
 
         {/* kanan */}
         <div className=" w-full md:w-1/2 h-screen">
-          <div className="max-w-sm rounded mx-auto overflow-hidden border border-orange-default shadow-lg">
-            <div className="px-6 py-4 text-center">
-              <h3 className="font-bold text-xl mb-2">Individual</h3>
-              <p className="text-gray-700 text-base">FREE</p>
+          <div className="max-w-sm rounded mx-auto overflow-hidden border-2 border-orange-gray shadow-2xl hover:border-orange-default">
+            <div className="px-6 py-4 text-center text-orange-default">
+              <h3 className="font-medium text-xl mb-2">Perusahaan</h3>
+              <p className="font-bold">
+                RP.50000/ <span className="font-medium">Bulan</span>
+              </p>
             </div>
 
-            <button
-              href="#!"
-              className="mx-auto px-4 py-2 mt-10 border border-orange-default rounded-full shadow-sm text-base text-orange-default font-medium hover:bg-orange-default hover:text-orange-light"
-            >
-              Select
-            </button>
+            <div className="mx-auto px-6 py-4 text-center">
+              <button
+                href="#"
+                className="mx-auto px-4 py-2 mt-10 border border-orange-default rounded-full shadow-sm text-base text-orange-default font-medium hover:bg-orange-default hover:text-orange-light hover:shadow-lg "
+              >
+                Select
+              </button>
+            </div>
+
             <img
-              className="mx-auto w-2/5 h-2/5"
-              src={People}
-              alt="people ilustration"
+              className="mx-auto mt-10 w-72 h-96"
+              src={City}
+              alt="city ilustration"
             />
           </div>
         </div>
