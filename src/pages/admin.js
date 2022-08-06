@@ -1,6 +1,7 @@
 import Sidebar from "../components/sidebar";
 import Notification from "../assets/icons/notifications.png";
 import Table from "../components/sidebar/table";
+import Chart from "../components/sidebar/chart";
 
 export default function Admin() {
   return (
@@ -36,6 +37,8 @@ export default function Admin() {
           </div>
         </div>
 
+        {/* Chart */}
+        <Chart />
         {/* Table */}
         <Table />
       </div>
