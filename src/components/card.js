@@ -9,7 +9,7 @@ export default function Cards() {
       </h3>
       <div className="flex flex-wrap mt-10 items-center h-screen">
         <div className=" w-full md:w-1/2 h-screen">
-          <div className="max-w-sm rounded mx-auto overflow-hidden border-2 border-orange-gray shadow-2xl hover:border-orange-default">
+          <div className="max-w-sm rounded mx-auto overflow-hidden border border-orange-gray shadow-xl hover:border-orange-default">
             <div className="px-6 py-4 text-center text-orange-default">
               <h3 className="font-medium text-xl mb-2">Individual</h3>
               <p className="font-bold">FREE</p>
@@ -34,7 +34,7 @@ export default function Cards() {
 
         {/* kanan */}
         <div className=" w-full md:w-1/2 h-screen">
-          <div className="max-w-sm rounded mx-auto overflow-hidden border-2 border-orange-gray shadow-2xl hover:border-orange-default">
+          <div className="max-w-sm rounded mx-auto overflow-hidden border border-orange-gray shadow-xl hover:border-orange-default">
             <div className="px-6 py-4 text-center text-orange-default">
               <h3 className="font-medium text-xl mb-2">Perusahaan</h3>
               <p className="font-bold">

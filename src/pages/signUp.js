@@ -72,9 +72,9 @@ export default function SignUp() {
                   placeholder="Konfirmasi Password"
                 />
               </div>
-              <div class="md:flex px-10 mb-6 mx-auto">
+              <div class="md:flex px-6 mb-6 mx-auto">
                 <button
-                  className="mx-auto border-orange-light bg-orange-default text-orange-light font-bold py-4 px-20"
+                  className="mx-auto border-orange-light bg-orange-default text-orange-light font-bold py-2 px-20"
                   type="button"
                 >
                   Signup Now

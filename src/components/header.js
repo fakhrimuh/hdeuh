@@ -17,6 +17,7 @@ import {
 } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import Logo from "../assets/logo.jpeg";
+import { Link } from "react-router-dom";
 
 const solutions = [
   {
@@ -85,15 +86,6 @@ const resources = [
     icon: ShieldCheckIcon,
   },
 ];
-// const recentPosts = [
-//   { id: 1, name: "Boost your conversion rate", href: "#" },
-//   {
-//     id: 2,
-//     name: "How to use search engine optimization to drive traffic to your site",
-//     href: "#",
-//   },
-//   { id: 3, name: "Improve your customer experience", href: "#" },
-// ];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -105,7 +97,7 @@ export default function Example() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
+            <a href="#!">
               <span className="sr-only">Workflow</span>
               <img className="h-20 w-auto sm:h-20" src={Logo} alt="LOGO" />
             </a>
@@ -192,19 +184,19 @@ export default function Example() {
               )}
             </Popover> */}
             <a
-              href="#"
+              href="#!"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Fitur
             </a>
             <a
-              href="#"
+              href="#!"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Testimoni
             </a>
             <a
-              href="#"
+              href="#!"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Panduan Penggunaan
@@ -302,18 +294,18 @@ export default function Example() {
             </Popover> */}
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <a
-              href="#"
-              className="whitespace-nowrap text-orange-default font-medium hover:text-gray-900"
+            <Link
+              to="/signup"
+              className="whitespace-nowrap text-orange-default font-medium"
             >
-              Sign in
-            </a>
-            <a
-              href="#"
-              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-orange-default rounded-full shadow-sm text-base text-orange-default font-medium hover:bg-orange-default hover: text-orange-light"
+              Sign Up
+            </Link>
+            <Link
+              to="/login"
+              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-orange-default rounded-full shadow-sm text-base text-orange-default font-medium hover:bg-orange-default hover:text-orange-light"
             >
-              Sign up
-            </a>
+              Sign In
+            </Link>
           </div>
         </div>
       </div>
@@ -372,14 +364,14 @@ export default function Example() {
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                 <a
-                  href="#"
+                  href="#!"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Pricing
                 </a>
 
                 <a
-                  href="#"
+                  href="#!"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Docs
@@ -396,14 +388,17 @@ export default function Example() {
               </div>
               <div>
                 <a
-                  href="#"
+                  href="#!"
                   className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                   Sign up
                 </a>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                   Existing customer?{" "}
-                  <a href="#" className="text-indigo-600 hover:text-indigo-500">
+                  <a
+                    href="#!"
+                    className="text-indigo-600 hover:text-indigo-500"
+                  >
                     Sign in
                   </a>
                 </p>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Blob from "../assets/blob-full.png";
 import Logo from "../assets/logo.jpeg";
 import Shopping from "../assets/shopping.png";
@@ -25,7 +26,7 @@ export default function Login() {
         {/* Form */}
         <div className="w-full md:w-2/6 h-screen">
           <div className="max-w-sm rounded overflow-hidden shadow-2xl h-5/6 mt-10 mb-10">
-            <form class="w-full max-w-sm">
+            <form class="w-full max-w-sm mx-auto">
               <img src={Logo} alt="Logo" className="w-36 h-36 mx-auto" />
               <div className="mb-4 px-10 mx-auto">
                 <input
@@ -44,17 +45,25 @@ export default function Login() {
                   Forgot Password?
                 </p>
               </div>
-              <div class="md:flex px-10 mb-6 mx-auto">
-                <button
-                  className="mx-auto border-orange-light bg-orange-default text-orange-light font-bold py-2 px-20"
-                  type="button"
+              <Link to="/admin">
+                <div class="md:flex px-6 mb-6 mx-auto">
+                  <button
+                    className="mx-auto border-orange-light bg-orange-default text-orange-light font-bold py-2 px-20"
+                    type="button"
+                  >
+                    Login
+                  </button>
+                </div>
+              </Link>
+
+              <div class="md:flex px-6 mb-6 mx-auto">
+                <Link
+                  to="/signup"
+                  className="px-10 mb-6 text-center mx-auto font-medium opacity-80"
                 >
-                  Login
-                </button>
+                  Signup Now
+                </Link>
               </div>
-              <p className="px-10 mb-6 text-center font-medium opacity-80">
-                Signup Now
-              </p>
             </form>
           </div>
         </div>
