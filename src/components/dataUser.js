@@ -3,23 +3,26 @@ import {
   LightningBoltIcon,
   CheckCircleIcon,
   CheckIcon,
+  UsersIcon,
+  LocationMarkerIcon,
+  ServerIcon,
 } from "@heroicons/react/solid";
 
 const features = [
   {
     name: "90+",
     description: "Users.",
-    icon: CheckCircleIcon,
+    icon: UsersIcon,
   },
   {
     name: "30+",
     description: "Locations",
-    icon: CheckIcon,
+    icon: LocationMarkerIcon,
   },
   {
     name: "50+",
     description: "Servers",
-    icon: LightningBoltIcon,
+    icon: ServerIcon,
   },
 ];
 
@@ -33,7 +36,7 @@ export default function DataUser() {
               <dt>
                 <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
                   <feature.icon
-                    className="h-6 w-6 bg-orange-default text-orange-light rounded-full"
+                    className="h-12 w-12  text-orange-default rounded-full"
                     aria-hidden="true"
                   />
                 </div>
