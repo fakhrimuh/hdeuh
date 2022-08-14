@@ -1,6 +1,5 @@
 import Sidebar from "../components/sidebar";
 import Table from "../components/sidebar/table";
-import Chart from "../components/sidebar/chart";
 import HeaderAdmin from "../components/sidebar/headerAdmin";
 
 export default function Store() {

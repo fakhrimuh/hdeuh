@@ -1,6 +1,7 @@
 import Sidebar from "../components/sidebar";
 import Table from "../components/sidebar/table";
 // import CardLineChart from "../components/sidebar/chart";
+import CardLineChart from "../components/sidebar/graphChart";
 import HeaderAdmin from "../components/sidebar/headerAdmin";
 import PaymentCard from "../components/sidebar/paymentCard";
 
@@ -23,7 +24,7 @@ export default function Admin() {
 
           <div className="flex-1">
             {/* Chart */}
-            {/* <CardLineChart /> */}
+            <CardLineChart />
           </div>
         </div>
 
