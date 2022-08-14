@@ -18,6 +18,12 @@ export default function Delivery() {
 
         {/* Table */}
         <Table />
+
+        <div className="text-end mt-6">
+          <button className="mx-auto rounded-lg bg-orange-default font-medium py-1 px-8">
+            Edit
+          </button>
+        </div>
       </div>
     </div>
   );

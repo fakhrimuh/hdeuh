@@ -1,8 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
 import {
-  LightningBoltIcon,
-  CheckCircleIcon,
-  CheckIcon,
   UsersIcon,
   LocationMarkerIcon,
   ServerIcon,
@@ -29,7 +26,7 @@ const features = [
 export default function DataUser() {
   return (
     <div className="max-w-7xl pb-16 mx-auto px-4 sm:px-6">
-      <div className="mt-10">
+      <div className="">
         <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
           {features.map((feature) => (
             <div key={feature.name} className="relative">

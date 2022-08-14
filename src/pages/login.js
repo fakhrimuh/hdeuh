@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Blob from "../assets/blob-full.png";
+import Blob from "../assets/login-bg.png";
 import Logo from "../assets/logo.jpeg";
 import Shopping from "../assets/shopping.png";
 
@@ -17,7 +17,7 @@ export default function Login() {
 
           <div className="absolute top-1/2 left-16 -translate-x-auto -translate-y-1/2">
             <img src={Shopping} alt="shopping" className="mx-auto w-80 h-80" />
-            <p className="text-6xl font-semibold text-orange-black opacity-50">
+            <p className="text-6xl font-semibold text-orange-default font-bold">
               Manage and Handle <br /> distribution in one
             </p>
           </div>
